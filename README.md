@@ -54,6 +54,8 @@ conda activate SIGNS_2024
 
 -- Using tools like VADER and custom made lexicon we assigned sentiment scores to Financial News and Geopolitical News. 
 
+-- Webscrapping tools and Data colletion tools present in the Folder `Webscrapping`
+
 ### Feature Engineering and Modelling
 
 -- Computed relevant target features to predcit : Next Day Closing Price, Next Day Standard Moving Average (SMA), Pecentage Change, Price Trend (Binary variable) and SMA Trend (Binary). Examined different features to understand which factors influence stock prices.
