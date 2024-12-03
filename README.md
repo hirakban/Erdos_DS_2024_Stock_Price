@@ -2,6 +2,7 @@
 
 ## SIGNS - Stock Insights from Global News Sentiments
 
+This Project is a part of Erdos Institute Data Science BootCamp.
 Authors : 
 
 -- Hirak Bandyopadhyay
@@ -17,8 +18,6 @@ Authors :
 
 The goal of this project is to predict whether stock prices will rise or fall based on sentiment analysis of financial and geopolitical news. The focus is on gathering sentiment data from news and social media platforms, analyzing relevant stock price factors, and building machine learning models to forecast stock price movements.
 
-### Business Value/ Impact: 
-
 Accurate stock price prediction is crucial for investors and financial institutions which aid them in forming a more informed trading strategy. This project aims to study the historical behavior of markets and how various news events like financial news, geopolitical news of war and conflict, or even news or rumors about election results influence market behavior. By integrating this kind of sentiment analysis with financial data this project aims to optimize trading strategies by forecasting stock prices accurately. The following stakeholders would be benefactors of the project :  Financial analyst and Traders, Investment firms, Economist and Political Scientist and Individual investors. 
 
 ### KPIs
@@ -28,6 +27,23 @@ Accurate stock price prediction is crucial for investors and financial instituti
 -- Correlations between market sentiment, specific global events, and stock prices.
 
 -- Identify features that have a significant impact on stock predictions. 
+
+### 
+
+### Setting up the Environment
+
+Check to make sure you have uodated conda by running the following in your command line interface :
+```
+conda --version
+conda update conda
+```
+
+Set-Up environment : 
+
+```
+conda env create --file=SIGNS_env.yml
+conda activate SIGNS_2024
+```
 
 
 ### Data Collection and Preprocessing
