@@ -58,9 +58,21 @@ conda activate SIGNS_2024
 
 -- Computed relevant target features to predcit : Next Day Closing Price, Next Day Standard Moving Average (SMA), Pecentage Change, Price Trend (Binary variable) and SMA Trend (Binary). Examined different features to understand which factors influence stock prices.
 
--- Models include : ARIMAX (Baseline Model), Linear Regression, Logistic Regression, Random Forest, Gradient Boosted Trees and XGBoost. 
+-- Classification models : Logistic Regression, Random Forest, Gradient Boosted Trees and XGBoost - used to predict stock prices trends as categories (whether it goes up or down)
 
--- Gradient Boosted Trees and XGBoost gave the best predictions. 
+-- Regression models : ARIMAX (Baseline Model), Linear Regression, Logistic Regression, Random Forest, Gradient Boosted Trees and XGBoost - predict Next Day SMA or CLosing prices. 
+
+### Conclusions 
+
+-- FOr both classification and Regression XGBoost and Gradient Boosted Trees gave the best predictions. 
+
+-- We use both this develop a portfolio optimization algorithm implement a simple investment strategy which yield maximum of 30% growth in span of 1 year compared to traditional strategies like Buy-and-Hold
+
+
+
+
+
+
 
 
 
