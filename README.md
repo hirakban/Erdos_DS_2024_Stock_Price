@@ -64,7 +64,7 @@ conda activate SIGNS_2024
 
 ### Conclusions 
 
--- FOr both classification and Regression XGBoost and Gradient Boosted Trees gave the best predictions. 
+-- For both classification and Regression XGBoost and Gradient Boosted Trees gave the best predictions. 
 
 -- We use both this develop a portfolio optimization algorithm implement a simple investment strategy which yield maximum of 30% growth in span of 1 year compared to traditional strategies like Buy-and-Hold
 
