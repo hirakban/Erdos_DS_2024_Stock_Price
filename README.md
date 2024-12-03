@@ -3,6 +3,7 @@
 ## SIGNS - Stock Insights from Global News Sentiments
 
 This Project is a part of Erdos Institute Data Science BootCamp.
+
 Authors : 
 
 -- Hirak Bandyopadhyay
@@ -54,7 +55,7 @@ conda activate SIGNS_2024
 
 -- Using tools like VADER and custom made lexicon we assigned sentiment scores to Financial News and Geopolitical News. 
 
--- Webscrapping tools and Data colletion tools present in the Folder `Webscrapping`
+-- Webscrapping tools and Data preprocessing work present in the Folder `Webscrapping`, `Sentiment Analysis` and `EDA`
 
 ### Feature Engineering and Modelling
 
